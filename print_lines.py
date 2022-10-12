@@ -25,7 +25,7 @@ if __name__ == "__main__":
         lines = opcount(file)
         cmd = [
             "bat",
-            "--style=numbers",
+            "--style=header-filename,numbers,grid",
             "--color=always",
             "--highlight-line={}".format(line),
         ]
